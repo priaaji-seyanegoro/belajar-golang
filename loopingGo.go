@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func loopingGo() {
 
 	/*
 		There is no ternary if in Go, so you’ll need to use a full if statement even for basic conditions
