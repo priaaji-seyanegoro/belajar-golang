@@ -1,5 +1,8 @@
 package main
 
+//imported from another pkg
+import "HELLOWORLD/basic"
+
 /*
 	- prefix huruf kecil di GO berarti private func
 	- prefix huruf besar di GO berarti public func
@@ -7,6 +10,6 @@ package main
 
 func main() {
 	// variableGo()
-	// loopingGo()
-	SwitchGo()
+	// basic.VariableGo()
+	basic.SwitchGo()
 }

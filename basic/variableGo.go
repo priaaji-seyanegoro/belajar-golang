@@ -1,8 +1,8 @@
-package main
+package basic
 
 import "fmt"
 
-func variableGo() {
+func VariableGo() {
 	fmt.Println("hello world")
 
 	/*
